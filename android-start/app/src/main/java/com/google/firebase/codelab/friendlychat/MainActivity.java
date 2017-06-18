@@ -121,8 +121,7 @@ public class MainActivity extends AppCompatActivity
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
     private DatabaseReference mFirebaseDatabaseReference;
-    private FirebaseRecyclerAdapter<FriendlyMessage, MessageViewHolder>
-            mFirebaseAdapter;
+    private FirebaseRecyclerAdapter<FriendlyMessage, MessageViewHolder> mFirebaseAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
